@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+.Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.login{
+    display:flex;
+    flex-direction: column;
+    align-items:left;
+    box-shadow: 
+    -10px -10px 15px rgba(0,0,0,0.2),
+    10px 10px 15px rgba(0,0,0,0.2);
+    width:450px;
+    height: 250px;
+    padding:20px 50px;
+    border-radius: 5px;
+
+}
+label{
+    height: 50px;
+    margin-top:0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+#email,#password{
+    outline:none;
+    border:none;
+    border-bottom: 2px solid #c7ceed;
+    font-size: 20px;
+}
+#email:hover,#password:hover{
+    font-size: 20px;
+    border-bottom: 2px solid #ed2409;
+
+}
+.logintext{
+    padding:10px 0px;
+    font-size:40px;
+}
+.Forgot{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    padding-top:30px;
+}
+.Button{
+    width: 550px;
+    height: 60px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px;
+}
+.Sign,.Register{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+}
+.Register{
+    background-color: #6212c7;
+    color:#fff;
+}
+.sign{
+    background-color: #ed2409;
+    color:#fff;
+    border:none;
+}
+
